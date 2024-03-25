@@ -1,5 +1,5 @@
 const mongodb=require(mongodb).MongoClient
-const url="mongodb+srv://wandersonthi:<senha>@cluster0.1g0onws.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0" 
+const url="mongodb+srv://wandersonthi:<inserir a senha pra testar>@cluster0.1g0onws.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0" 
 
 mongodb.conect(url, (erro,banco)=>{
     if(erro)throw erro;
