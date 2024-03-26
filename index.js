@@ -1,11 +1,11 @@
-const express = require('express');
+iovidaconst express = require('express');
 const mongoose = require('mongoose');
 const userRoutes = require('./routes/userRoutes');
 const app = express();
 const port = 3000;
 
 
-mongoose.connect('mongodb+srv://wandersonthi:<inserir a senha pra testar>@cluster0.1g0onws.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0',{
+mongoose.connect('mongodb+srv://wandersonthi:10Demaiovida@cluster0.1g0onws.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0',{
   useNewUrlParser: true,
   useUnifiedTopology: true
 })
