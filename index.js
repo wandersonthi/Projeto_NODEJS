@@ -5,7 +5,7 @@ const app = express();
 const port = 3000;
 
 
-mongoose.connect('mongodb+srv://wandersonthi:10Demaiovida@cluster0.1g0onws.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0',{
+mongoose.connect('mongodb+srv://wandersonthi:10Demaiovida@1cluster0.1g0onws.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0',{
   useNewUrlParser: true,
   useUnifiedTopology: true
 })
@@ -13,7 +13,7 @@ mongoose.connect('mongodb+srv://wandersonthi:10Demaiovida@cluster0.1g0onws.mongo
   .catch((err)=> console.log(err));
 
 app.use(express.json());
-app.use('/api/users', userRoutes)')
+app.use('/api/users', userRoutes)
 
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
