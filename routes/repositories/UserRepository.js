@@ -6,5 +6,5 @@ module.exports = class UserRepository extends IUserRepository {
     create(user) {
         return User.create(user);
     }
-    // Implemente outros métodos necessários
+    
 }
