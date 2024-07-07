@@ -1,5 +1,5 @@
 const mongodb = require('mongodb').MongoClient;
-const url = "mongodb+srv://wandersonthi:10Demaiovida@cluster0.1g0onws.mongodb.net/";
+const url = "mongodb+srv://wandersonthi:<seu Pass>@cluster0.1g0onws.mongodb.net/";
 
 mongodb.connect(url, (erro, banco) => {
     if (erro) throw erro;
